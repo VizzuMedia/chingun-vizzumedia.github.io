@@ -6,149 +6,45 @@
   <title>VIZZUMEDIA</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: 'Montserrat', sans-serif;
-      background: #f4f4f4;
-      color: #333;
-      line-height: 1.6;
+      margin: 0;
+      background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
     }
+
     header {
-      background: #111;
-      color: white;
-      padding: 20px;
       text-align: center;
+      padding: 40px 20px;
     }
+
     header img {
-      max-height: 80px;
+      height: 80px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.8em;
       margin-bottom: 10px;
     }
-    header h1 { font-size: 2.5em; }
+
     section {
-      padding: 40px 20px;
       max-width: 1000px;
       margin: auto;
+      padding: 40px 20px;
     }
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #fff;
+      padding-bottom: 10px;
+    }
+
     .video-container {
       position: relative;
       padding-bottom: 56.25%;
       height: 0;
       overflow: hidden;
-    }
-    .video-container iframe {
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%;
-      height: 100%;
-    }
-    .services, .team {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-      margin-top: 20px;
-    }
-    .card {
-      background: white;
-      padding: 20px;
-      border-radius: 15px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-    .card img {
-      width: 100px;
-      border-radius: 50%;
-      margin-bottom: 10px;
-    }
-    form input, form textarea {
-      width: 100%;
-      padding: 10px;
-      margin: 10px 0;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-    }
-    form button {
-      background: #0077cc;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-    footer {
-      background: #222;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-  </style>
-</head>
-<body>
-
-  <header>
-    <img src="https://via.placeholder.com/150x80?text=VIZZUMEDIA" alt="Logo" />
-    <h1>Тавтай морил – VIZZUMEDIA</h1>
-    <p>Таны брэндийг цахим орчинд хөгжүүлэх мэргэжлийн хамтрагч</p>
-  </header>
-
-  <section>
-    <h2>🎬 Үзүүлэн видео</h2>
-    <div class="video-container">
-      <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </section>
-
-  <section>
-    <h2>💼 Бидний үйлчилгээ</h2>
-    <div class="services">
-      <div class="card">
-        <h3>Сошиал Менежмент</h3>
-        <p>Брэндийн пэйжийг мэргэжлийн түвшинд хөгжүүлнэ.</p>
-      </div>
-      <div class="card">
-        <h3>Контент Продакшн</h3>
-        <p>Фото, видео, график дизайн контент бүтээнэ.</p>
-      </div>
-      <div class="card">
-        <h3>Брендинг</h3>
-        <p>Нэр, лого, өнгө, таних тэмдэг зэргийг бүтээж өгнө.</p>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2>📩 Холбоо барих</h2>
-    <form action="mailto:chingun@vizzumedia.top" method="post" enctype="text/plain">
-      <input type="text" name="name" placeholder="Таны нэр" required />
-      <input type="email" name="email" placeholder="Таны имэйл" required />
-      <textarea name="message" rows="5" placeholder="Зурвас бичнэ үү..." required></textarea>
-      <button type="submit">Илгээх</button>
-    </form>
-  </section>
-
-  <section>
-    <h2>👥 Манай баг</h2>
-    <div class="team">
-      <div class="card">
-        <img src="https://via.placeholder.com/100" alt="Гишүүн 1" />
-        <h3>Чингүүн</h3>
-        <p>Үүсгэн байгуулагч, Creative Director</p>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/100" alt="Гишүүн 2" />
-        <h3>Нэргүй</h3>
-        <p>Контент продюсер</p>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/100" alt="Гишүүн 3" />
-        <h3>Саруул</h3>
-        <p>Маркетинг менежер</p>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <p>© 2025 VIZZUMEDIA | Бүх эрх хуулиар хамгаалагдсан.</p>
-  </footer>
-
-</body>
-</html>
+      border-radius: 10px;
+      box-shadow: 0 0 20
